@@ -24,7 +24,7 @@ singer-sdk = { version="^0.28.0", extras = ["testing"] }
 s3 = ["fs-s3fs"]
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.12"
 warn_unused_configs = true
 
 [tool.ruff]
@@ -34,7 +34,7 @@ ignore = [
 ]
 select = ["ALL"]
 src = ["tap_pepperjam"]
-target-version = "py37"
+target-version = "py312"
 
 
 [tool.ruff.flake8-annotations]
